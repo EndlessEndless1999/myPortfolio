@@ -1,3 +1,38 @@
 html {
     font-family: 'Roboto Mono', monospace;
 }
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+:root {
+    --primary: #fadda2;
+    --secondary: #6b61ff;
+    --tertiary: #66a1ff;
+    --quaternary: #8ecde6;
+    --quinternary: #f0eff4; 
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: var(--secondary);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.paintDiv {
+    height: 3000px;
+    width: 100%;
+    background-color: var(--tertiary);
+}
+
+.mainTitle {
+    justify-self: center;
+    text-align: center;
+    color: white;
+}
