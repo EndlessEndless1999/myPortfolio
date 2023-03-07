@@ -1,5 +1,5 @@
 function executeFriends() {
-    console.log('Hello World');
+    console.log('This website is feeling empty.');
 }
 
 
